@@ -11,6 +11,9 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return new MaterialApp(
       title: 'Startup Generator',
+      theme: new ThemeData(
+        primaryColor: Colors.white
+      ),
       home: new RandomWords(),
       debugShowCheckedModeBanner: false,
     );
